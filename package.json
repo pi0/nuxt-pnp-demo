@@ -7,7 +7,36 @@
     "start": "nuxt start"
   },
   "dependencies": {
-    "@nuxt/http": "^0.6.0",
     "nuxt-pnp": "2.14.7-4"
+  },
+  "dependenciesMeta": {
+    "core-js": {
+      "built": false,
+      "unplugged": false
+    },
+    "ejs": {
+      "built": false,
+      "unplugged": false
+    },
+    "fsevents": {
+      "built": false,
+      "unplugged": false
+    },
+    "nan": {
+      "built": false,
+      "unplugged": false
+    },
+    "node-gyp": {
+      "built": false,
+      "unplugged": false
+    },
+    "nuxt-pnp": {
+      "built": false,
+      "unplugged": false
+    },
+    "term-size": {
+      "built": false,
+      "unplugged": false
+    }
   }
 }
