@@ -1271,21 +1271,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/http@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "@nuxt/http@npm:0.6.0"
-  dependencies:
-    "@nuxtjs/proxy": ^2.0.1
-    abort-controller: ^3.0.0
-    consola: ^2.15.0
-    destr: ^1.0.0
-    ky: ^0.24.0
-    node-fetch: ^2.6.1
-    web-streams-polyfill: ^3.0.0
-  checksum: 0361ab2799dfc043934f607882391928ccff8006af52d3536ad614b92d1bf0e44720d81d46a167496cedea0ca86bfc7428e025ef84020bd9d1a06db1037f3c6e
-  languageName: node
-  linkType: hard
-
 "@nuxt/loading-screen@npm:^2.0.3":
   version: 2.0.3
   resolution: "@nuxt/loading-screen@npm:2.0.3"
@@ -1355,16 +1340,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/proxy@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@nuxtjs/proxy@npm:2.0.1"
-  dependencies:
-    consola: ^2.11.3
-    http-proxy-middleware: ^1.0.4
-  checksum: c7370f1eff62abb0339494aa2412c48e009730e3bb4b22fe18bab98c2d0ce69ee66148e709a546b4dab171dd36504cb36ca15503879ec7072d4e6b7930b07ac0
-  languageName: node
-  linkType: hard
-
 "@nuxtjs/youch@npm:^4.2.3":
   version: 4.2.3
   resolution: "@nuxtjs/youch@npm:4.2.3"
@@ -1387,15 +1362,6 @@ __metadata:
   version: 5.1.1
   resolution: "@types/html-minifier-terser@npm:5.1.1"
   checksum: 1e750b93e1240a6a3bc6d2748a4f09215c9557b8f6655ee57d1e88c7afcc171e2998a1e97a771c64ef8eeadc9db5623f9e08e09574a549cb74549cdbad5a73b7
-  languageName: node
-  linkType: hard
-
-"@types/http-proxy@npm:^1.17.4":
-  version: 1.17.4
-  resolution: "@types/http-proxy@npm:1.17.4"
-  dependencies:
-    "@types/node": "*"
-  checksum: 9f5ba01f1031010f686f628d1b7f8b0989cd0562436675eff13f944ae2ffbaa90be0d2a7f89a6caf5763e00822080ae28c58ce0e1cde138322decb636641e568
   languageName: node
   linkType: hard
 
@@ -1801,15 +1767,6 @@ __metadata:
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
   checksum: 9f9236a3cc7f56c167be3aa81c77fcab2e08dfb8047b7861b91440f20b299b9442255856bdbe9d408d7e96a0b64a36e1c27384251126962490b4eee841b533e0
-  languageName: node
-  linkType: hard
-
-"abort-controller@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "abort-controller@npm:3.0.0"
-  dependencies:
-    event-target-shim: ^5.0.0
-  checksum: cc53ad8df9a6de3f55d4f804fca5106908f855e47b572fb5ab3cdd723b76374686dcefa557a2f87d4396db77e31bc0e6ce9d48637388cef6d884c29ad2691448
   languageName: node
   linkType: hard
 
@@ -3120,7 +3077,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:^2.10.0, consola@npm:^2.11.3, consola@npm:^2.14.0, consola@npm:^2.15.0, consola@npm:^2.6.0, consola@npm:^2.9.0":
+"consola@npm:^2.10.0, consola@npm:^2.14.0, consola@npm:^2.15.0, consola@npm:^2.6.0, consola@npm:^2.9.0":
   version: 2.15.0
   resolution: "consola@npm:2.15.0"
   checksum: 9a20844425061e100eb81cc9eb6ed05b54c38630151c6419c6a8526bd6b1eaaa7d61d37618cf7a1dee0e2052548fee41a99b8856f351733c12c6d85f20a3199c
@@ -4186,20 +4143,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"event-target-shim@npm:^5.0.0":
-  version: 5.0.1
-  resolution: "event-target-shim@npm:5.0.1"
-  checksum: d176477a31adf328ff50148886e46cef3f61ff8bdc1d6db161f6b3ead2501085d5652a81fab8dddc59aed93727231c0b5c8a0948de77ae401b2d977a3d18329e
-  languageName: node
-  linkType: hard
-
-"eventemitter3@npm:^4.0.0":
-  version: 4.0.7
-  resolution: "eventemitter3@npm:4.0.7"
-  checksum: 1fc12c7bc3b4194c50975827e72d56ff57c32b75a4c7dbf4d5eebf3c8371f6f1aad6799150b609de1b867c0d8a9885c08b6ca5e7e0dc437d6152f3063b2607dd
-  languageName: node
-  linkType: hard
-
 "events@npm:^3.0.0":
   version: 3.2.0
   resolution: "events@npm:3.2.0"
@@ -4557,13 +4500,6 @@ __metadata:
     inherits: ^2.0.3
     readable-stream: ^2.3.6
   checksum: b8fa1fbfadd5c4b6df3cf2c34b3c408fe508a2899c536bafa339f679de545689997e907bd4ff61dd292942f8044fb2f293a5956dd8b601f6a5601617842d0dda
-  languageName: node
-  linkType: hard
-
-"follow-redirects@npm:^1.0.0":
-  version: 1.13.0
-  resolution: "follow-redirects@npm:1.13.0"
-  checksum: f220828d3f153da30ea616fdbe9f6676e74e4e68c51d336a751037c1d556e2de34aa5918f58951fa19bb6517c9c88b4403a0a8bdfc40d3e779d37def2ac0f2c4
   languageName: node
   linkType: hard
 
@@ -5214,30 +5150,6 @@ fsevents@~2.1.2:
     statuses: ">= 1.5.0 < 2"
     toidentifier: 1.0.0
   checksum: 563ae4a3f19c89029212922bade6ffcd0e4b7fa52e539f08c8f6941de7eaccb00bf76cb7692662192f2f0d567d4ac1f9d6a3d0ee70b166c8540cf791497f90ea
-  languageName: node
-  linkType: hard
-
-"http-proxy-middleware@npm:^1.0.4":
-  version: 1.0.6
-  resolution: "http-proxy-middleware@npm:1.0.6"
-  dependencies:
-    "@types/http-proxy": ^1.17.4
-    http-proxy: ^1.18.1
-    is-glob: ^4.0.1
-    lodash: ^4.17.20
-    micromatch: ^4.0.2
-  checksum: 46385b03f1a2c5895e6ed054ebb966ac6e8929405bbe8690db78dce460ec19f4cd892fcb12f99f869a047ef888409d0fe7db703d936d853c2c22ea17dddba27b
-  languageName: node
-  linkType: hard
-
-"http-proxy@npm:^1.18.1":
-  version: 1.18.1
-  resolution: "http-proxy@npm:1.18.1"
-  dependencies:
-    eventemitter3: ^4.0.0
-    follow-redirects: ^1.0.0
-    requires-port: ^1.0.0
-  checksum: fc2062718d77868eff0d2707652d7e0d302a0f85d90f317daa410df5c41fbe009589c80bc73cc72a44368bb37d071c8f52aaa5b3ce82a08f3524a79ddf178b9b
   languageName: node
   linkType: hard
 
@@ -6019,13 +5931,6 @@ fsevents@~2.1.2:
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
   checksum: 5de5d6577796af87a983199d6350ed41c670abec4a306cc43ca887c1afdbd6b89af9ab00016e3ca17eb7ad89ebfd9bb817d33baa89f855c6c95398a8b8abbf08
-  languageName: node
-  linkType: hard
-
-"ky@npm:^0.24.0":
-  version: 0.24.0
-  resolution: "ky@npm:0.24.0"
-  checksum: 56dee6a6ccd09436062596b405318122b063e23ea7765958ad5c20af81311c1dad70e9f71e4903f1c36be7ce03510aad6d3890d5d0614b67e83920bacd31de8c
   languageName: node
   linkType: hard
 
@@ -8770,13 +8675,6 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"requires-port@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "requires-port@npm:1.0.0"
-  checksum: 0db25fb2ac9b4f2345a350846b7ba99d1f25a6686b1728246d14f05450c8f2fc066bdfae4561b4be2627c184a030a27e17268cfefdf46836e271db13734bc49e
-  languageName: node
-  linkType: hard
-
 "resolve-from@npm:^3.0.0":
   version: 3.0.0
   resolution: "resolve-from@npm:3.0.0"
@@ -8899,8 +8797,29 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@nuxt/http": ^0.6.0
     nuxt-pnp: 2.14.7-4
+  dependenciesMeta:
+    core-js:
+      built: false
+      unplugged: false
+    ejs:
+      built: false
+      unplugged: false
+    fsevents:
+      built: false
+      unplugged: false
+    nan:
+      built: false
+      unplugged: false
+    node-gyp:
+      built: false
+      unplugged: false
+    nuxt-pnp:
+      built: false
+      unplugged: false
+    term-size:
+      built: false
+      unplugged: false
   languageName: unknown
   linkType: soft
 
@@ -10433,13 +10352,6 @@ fsevents@~2.1.2:
     watchpack-chokidar2:
       optional: true
   checksum: 93bb20dd955adf48daca67e6906ff9518f181e83d2183038e9a2573549a0d4badd23672d3ac542be9d5b766bd27da4baebba5d2d2522a7e05575c7cf7702c60b
-  languageName: node
-  linkType: hard
-
-"web-streams-polyfill@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "web-streams-polyfill@npm:3.0.1"
-  checksum: f5cb616ccd1fcd602c88abd13e559b1a34225d939b488c1cfa716c230b80ecf58d09cb20c7862481dad272e294a88cd25d9fafe530267f487342faeae51857f3
   languageName: node
   linkType: hard
 
