@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@nuxt/http": "^0.6.0",
-    "nuxt-pnp": "2.14.7-4"
+    "defu": "^3.2.2",
+    "destr": "^1.0.1",
+    "nuxt-edge": "2.14.13-26811406.5bd4fe0"
   }
 }
